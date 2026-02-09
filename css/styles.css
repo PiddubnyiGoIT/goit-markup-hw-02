@@ -33,12 +33,19 @@ ol {
  }
  
  
- a :focus {
+ a:focus {
     color: #434455;
  }
 
- 
+ .header-list-link:hover,
+ .header-list-link:focus {
+     color: #404BBF;
+ }
 
+ .header-address-link:hover,
+ .header-address-link:focus {
+     color: #404BBF;
+ }
 
 .header-logo { 
    
